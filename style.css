@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* heading */
+#photoGall {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  /* background-color: lightblue; */
+  background-image: linear-gradient(skyblue, lightblue, white);
+  padding: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 2px 2px yellow;
+  border-bottom-color:blue;
+}
+
+/* constant characteristics of the pictures */
+.pictures{
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2%;
+
+}
+
+
+/* spacing the photos */
+img{
+    padding: 1%;
+    width: 25%;
+    height: 500px;
+    object-fit: cover;
+
+}
+
+img:hover{
+  border: 5px solid yellow;
+}
+
+/* tablet size */
+@media screen and (max-width: 1000px){
+  img{
+    width: 50%;
+  }
+}
+
+/* phone size */
+@media screen and (max-width: 600px){
+  img{
+    width: 75%;
+  }
+}
