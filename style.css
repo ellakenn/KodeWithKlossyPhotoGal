@@ -9,14 +9,27 @@
 #photoGall {
   font-family: 'Lobster', cursive;
   text-align: center;
+  color: #F6B343;
   /* background-color: lightblue; */
   background-image: linear-gradient(white, skyblue);
   padding: 20px;
   font-size: 40px;
   font-weight: bold;
-  text-shadow: 2px 2px #F6B343;
+  text-shadow: 2px 2px #FCE7BB;
   /* border-bottom: 3px solid skyblue; */
 }
+
+
+/* #name{
+  display: flex;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  color: skyblue;
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 2px 2px #F6B343;
+  align-self: flex-end;
+} */
 
 /* constant characteristics of the pictures */
 .pictures{
