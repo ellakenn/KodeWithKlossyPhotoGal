@@ -35,12 +35,12 @@ img{
     width: 25%;
     height: 500px;
     object-fit: cover;
-
+    border: 1px hidden #FCE7BB;
 }
 
 img:hover{
-  border: 5px solid blanchedalmond;
-
+  border: 5px solid skyblue;
+  transition: .5s;
 }
 
 body{
