@@ -10,7 +10,7 @@
   font-family: 'Lobster', cursive;
   text-align: center;
   /* background-color: lightblue; */
-  background-image: linear-gradient(#F6B343, white, skyblue);
+  background-image: linear-gradient(white, skyblue);
   padding: 20px;
   font-size: 40px;
   font-weight: bold;
@@ -43,7 +43,8 @@ img:hover{
 }
 
 body{
-    background-image:linear-gradient(white, #F6B343);
+    /* background-image:linear-gradient(white, #F6B343); */
+    background-color: #FCE7BB;
 }
 
 /* tablet size */
